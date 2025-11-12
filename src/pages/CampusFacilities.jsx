@@ -22,7 +22,7 @@ import girlsTrio from "../assets/girlsTrio.jpg";
 import diningSSE from "../assets/diningSSE.jpg";
 import dinningWithFrds from "../assets/dinningWithFrds.jpg";
 import campusGardenSSE from "../assets/campusGardenSSE.jpg";
-import seminarHallSSE from "../assets/seminarHallSSE.jpg";
+import seminarHallSSE from "../assets/seminarhallSSE.jpg";
 import cyclesSSE from "../assets/cyclesSSE.jpg";
 import exhibitionHallSSE from "../assets/exhibitionHallSSE.jpg";
 const CampusFacilities = () => {
