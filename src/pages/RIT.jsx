@@ -40,7 +40,7 @@ import paulR from "../assets/risefaculty/paul.jpg"
 import thomas2 from "../assets/risefaculty/thomas.png"
 
 
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 import paul from "../assets/ssefaculty/cse/paul.jpg";
 import karin from "../assets/risefaculty/karin.jpg"
 import raimund from "../assets/ssefaculty/cse/raimund.jpg";

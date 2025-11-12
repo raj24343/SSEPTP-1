@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import Button from "../components/common/Button";
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 
 // Import images from assets
 import ssecampus from "../assets/ssecampus.jpg";

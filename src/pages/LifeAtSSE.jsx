@@ -5,7 +5,7 @@ import Footer from "../components/layout/Footer";
 import SectionHeader from "../components/common/SectionHeader";
 import Button from "../components/common/Button";
 import "../styles/LifeAtSSE.css";
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 
 // Import campus images - updated with more relevant images
 import campusGreenary from "../assets/campusGreenary.jpg"; // Updated hero image

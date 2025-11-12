@@ -3,12 +3,12 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import SectionHeader from "../components/common/SectionHeader";
 import Button from "../components/common/Button";
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 
 // Import images
 import hostelGirls from "../assets/hostelGirls.jpg";
 import girlsCorridor1 from "../assets/girlsCorridor1.jpg";
-import girlsTrio from "../assets/girlsTrio.jpg";
+import girlsTrio from "../assets/girlsTrio.jpg";  
 import boysInCLG from "../assets/boysInCLG.jpg";
 import boysClub from "../assets/boysClub.jpg";
 import campusCoridor from "../assets/campusCoridor.jpg";

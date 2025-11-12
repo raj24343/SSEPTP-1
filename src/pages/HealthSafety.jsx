@@ -3,7 +3,7 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import SectionHeader from "../components/common/SectionHeader";
 import Button from "../components/common/Button";
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 
 /**
  * Health and Safety page component

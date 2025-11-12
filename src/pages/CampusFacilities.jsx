@@ -4,7 +4,7 @@ import Footer from "../components/layout/Footer";
 import SectionHeader from "../components/common/SectionHeader";
 import Button from "../components/common/Button";
 import "../styles/campusFacilities.css"; // Custom CSS for this page
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 
 // Import local images
 import ssecampus from "../assets/ssecampus.jpg";

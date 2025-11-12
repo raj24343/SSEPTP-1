@@ -4,7 +4,7 @@ import Footer from '../components/layout/Footer';
 import SectionHeader from '../components/common/SectionHeader';
 import Button from '../components/common/Button';
 import '../styles/UndergraduateProgrammes.css';
-import Contact from '../components/common/contact';
+import Contact from '../components/common/Contact';
 import girlsStudying from '../assets/girlsStudying.jpg';
 /**
  * Undergraduate Programmes page component

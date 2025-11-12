@@ -3,7 +3,7 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import SectionHeader from "../components/common/SectionHeader";
 import Button from "../components/common/Button";
-import Contact from "../components/common/contact";
+import Contact from "../components/common/Contact";
 
 // Import local images
 import lab1 from "../assets/lab1.jpg";
