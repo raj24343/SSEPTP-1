@@ -6,7 +6,7 @@ import Footer from '../components/layout/Footer';
 import SectionHeader from '../components/common/SectionHeader';
 
 // Import faculty images from the ece subdirectory with correct file names
-import Annapurna from '../assets/ssefaculty/ece/Annapurna.jpg'; // Image 1
+import Annapurna from '../assets/ssefaculty/ece/annapurna.jpg'; // Image 1
 import HariKrishnan from '../assets/facultyPictures/ece/SHariKrishnan.jpg'; // Image 2
 import Pranavi from '../assets/ssefaculty/ece/Pravani.jpg'; // Image 4
 import Usha from '../assets/ssefaculty/ece/Usha.jpg'; // Image 5
