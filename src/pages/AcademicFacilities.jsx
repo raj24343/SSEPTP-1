@@ -18,7 +18,7 @@ import ssecampus from "../assets/ssecampus.jpg";
 import classrooms from "../assets/classrooms.jpg";
 import library from "../assets/library.jpg";
 import chemistryLab from "../assets/chemistryLab.jpg";
-import lectureHall from "../assets/lectureHall.jpg";
+import lectureHall from "../assets/LectureHall.jpg";
 import studentCommonArea from "../assets/studentCommonArea.jpg";
 import cadLab from "../assets/cadLab.jpg";
 import labMech from "../assets/labMech.jpg";
