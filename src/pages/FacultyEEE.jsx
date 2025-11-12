@@ -8,7 +8,7 @@ import SectionHeader from '../components/common/SectionHeader';
 // Import faculty images from the eee subdirectory
 import dhanunjaya from '../assets/ssefaculty/eee/dhanunjaya.jpg';
 import DNagaraju from '../assets/ssefaculty/eee/DNagaraju.jpg';
-import khadarvali from '../assets/facultyPictures/eee/khadarVali.jpg';
+import khadarvali from '../assets/facultyPictures/eee/khadarvali.jpg';
 import NpavanKumar from '../assets/ssefaculty/eee/NpavanKumar.jpg';
 import PavanKumar from '../assets/ssefaculty/eee/PavanKumar.jpg';
 import Ramu from '../assets/facultyPictures/eee/KRamu.jpg';
