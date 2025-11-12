@@ -10,7 +10,6 @@ import dhanunjaya from '../assets/ssefaculty/eee/dhanunjaya.jpg';
 import DNagaraju from '../assets/ssefaculty/eee/DNagaraju.jpg';
 import SKhadarVali from '../assets/facultyPictures/eee/SKhadarVali.jpg';
 import NpavanKumar from '../assets/ssefaculty/eee/NpavanKumar.jpg';
-import PavanKumar from '../assets/ssefaculty/eee/PavanKumar.jpg';
 import Ramu from '../assets/facultyPictures/eee/KRamu.jpg';
 import VinodKumar from '../assets/facultyPictures/eee/VinodKumar.jpg';
 import Vinodhkumar from '../assets/ssefaculty/eee/Vinodhkumar.jpeg';
@@ -60,7 +59,7 @@ function FacultyEEE() {
     <div className="faculty-page">
       {/* Navigation */}
       <Navbar />
-      
+
       {/* Page Header with proper spacing */}
       <section className="page-header" style={{ paddingTop: '120px', paddingBottom: '60px' }}>
         <Container>
@@ -71,7 +70,7 @@ function FacultyEEE() {
           </Row>
         </Container>
       </section>
-      
+
       {/* Faculty Grid */}
       <section className="py-5">
         <Container>
@@ -79,16 +78,16 @@ function FacultyEEE() {
             title="Electrical & Electronics Engineering Faculty"
             centered={true}
           />
-          
+
           <Row className="g-4">
             {eeeFaculty.map(faculty => (
               <Col lg={3} md={4} sm={6} key={faculty.id} className="mb-4">
                 <Card className="h-100 shadow-sm border-0 faculty-card">
                   <Card.Body className="p-3 text-center">
                     <div className="rounded-circle overflow-hidden mx-auto mb-3" style={{ width: '120px', height: '120px' }}>
-                      <img 
-                        src={faculty.image} 
-                        alt={faculty.name} 
+                      <img
+                        src={faculty.image}
+                        alt={faculty.name}
                         className="img-fluid"
                         onError={(e) => {
                           e.target.onerror = null;
@@ -98,7 +97,7 @@ function FacultyEEE() {
                     </div>
                     <Card.Title className="h5 mb-1">{faculty.name}</Card.Title>
                     <p className="text-primary mb-2">{faculty.designation}</p>
-                   
+
                   </Card.Body>
                 </Card>
               </Col>
@@ -106,7 +105,7 @@ function FacultyEEE() {
           </Row>
         </Container>
       </section>
-      
+
       {/* Footer */}
       <Footer />
     </div>

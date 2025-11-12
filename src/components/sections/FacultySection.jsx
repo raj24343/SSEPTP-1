@@ -44,7 +44,7 @@ import PavanKumar from '../../assets/facultyPictures/civil/PPavanKumar.jpg'; // 
 const FacultySection = () => {
   // State for active department
   const [activeDepartment, setActiveDepartment] = useState('cse');
-  
+
   // Departments
   const departments = [
     { id: 'cse', name: 'Computer Science' },
@@ -54,7 +54,7 @@ const FacultySection = () => {
     { id: 'eee', name: 'Electrical Engineering' },
     // {id:"humanities", name:"Humanities & Sciences"}
   ];
-  
+
   // Faculty data - Using real faculty for all departments
   const facultyData = {
     cse: [
@@ -219,10 +219,10 @@ const FacultySection = () => {
       }
     ]
   };
-  
+
   // Get active faculty list
   const activeFaculty = facultyData[activeDepartment];
-  
+
   return (
     <section className="faculty-section py-5 bg-light">
       <Container>
@@ -232,7 +232,7 @@ const FacultySection = () => {
           description="Learn from experienced professors and industry experts dedicated to student success"
           centered={true}
         />
-        
+
         {/* Department navigation tabs - Using the category-tabs style from original */}
         <div className="d-flex justify-content-center mb-5">
           <div className="category-tabs">
@@ -247,14 +247,14 @@ const FacultySection = () => {
             ))}
           </div>
         </div>
-        
+
         <Row className="g-4">
           {activeFaculty.map(faculty => (
             <Col lg={3} md={6} key={faculty.id}>
               <div className="faculty-card h-100 border-0 shadow-sm">
                 <div className="faculty-img-container" style={{ height: "240px", objectPosition: "top center" }}>
-                  <img 
-                    src={faculty.image} 
+                  <img
+                    src={faculty.image}
                     alt={faculty.name}
                     className="faculty-image"
                     style={{ objectPosition: "top center" }}
@@ -271,10 +271,10 @@ const FacultySection = () => {
             </Col>
           ))}
         </Row>
-        
+
         <div className="text-center mt-4">
-          <Button 
-            variant="read-more" 
+          <Button
+            variant="read-more"
             text={`View All ${departments.find(d => d.id === activeDepartment).name} Faculty`}
             icon="fas fa-arrow-right"
             href={`/faculty-${activeDepartment}`}
