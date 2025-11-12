@@ -21,7 +21,7 @@ import Manasa from '../assets/ssefaculty/cse/Manasa.jpg'; // Image 15
 import MaheswarReddy from '../assets/ssefaculty/cse/MaheshwarReddy.jpg'; // Image 16
 import PaulSpiesberger from '../assets/ssefaculty/cse/paul.jpg'; // Image 4
 import RaimundRittnauer from '../assets/ssefaculty/cse/raimund.jpg'; // Image 5
-import EnnoStubler from '../assets/ssefaculty/cse/EnnoStubler.jpg'; // Image 6
+import EnnoStubler from '../assets/ssefaculty/cse/ennoStubler.jpg'; // Image 6
 import Johannes from '../assets/ssefaculty/cse/johannes.jpg'; // Image 8
 import KonradZalar from '../assets/ssefaculty/cse/Konradjalar.jpg'; // Image 17
 
