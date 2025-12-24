@@ -2303,14 +2303,16 @@ body::-webkit-scrollbar,
     justify-content: center;
   }
 
-  /* Navigation adjustments for small screens */
+  /* Navigation adjustments for small screens - Centered in 100px bar */
   .carousel-custom-controls-wrapper {
-    bottom: 45px !important;
+    bottom: 34px !important;
+    /* (100 - 32)/2 */
   }
 
   .carousel-control-prev,
   .carousel-control-next {
-    bottom: 45px !important;
+    bottom: 28px !important;
+    /* (100 - 44)/2 */
   }
 
   .carousel-footer-bar {
@@ -2330,12 +2332,14 @@ body::-webkit-scrollbar,
   }
 
   .carousel-custom-controls-wrapper {
-    bottom: 35px !important;
+    bottom: 24px !important;
+    /* (80 - 32)/2 */
   }
 
   .carousel-control-prev,
   .carousel-control-next {
-    bottom: 35px !important;
+    bottom: 18px !important;
+    /* (80 - 44)/2 */
   }
 
   .carousel-footer-bar {
