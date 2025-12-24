@@ -178,7 +178,6 @@ const MainCarousel = ({ slides = [] }) => {
                 backgroundImage: `url(${slide.image})`,
                 backgroundSize: "100% 100%",
                 backgroundPosition: "center",
-                height: "100vh",
                 backgroundColor: "#111", // Prevent white flash
               }}
             >

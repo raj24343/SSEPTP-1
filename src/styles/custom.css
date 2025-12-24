@@ -1484,14 +1484,14 @@ body::-webkit-scrollbar,
   }
 
   .hero-badge.naac-badge {
-    height: 120px;
+    height: 100px;
     top: 60px;
     left: 40%;
     transform: translateX(-50%) !important;
   }
 
   .hero-badge.autonomous-badge {
-    height: 100px;
+    height: 85px;
     top: 70px;
     left: 70%;
     transform: translateX(-50%) !important;
@@ -1977,7 +1977,7 @@ body::-webkit-scrollbar,
   }
 
   .carousel-item-fullheight {
-    height: 70vh;
+    height: 60vh;
   }
 
   .slide-title {
@@ -2078,6 +2078,10 @@ body::-webkit-scrollbar,
 }
 
 @media (max-width: 575.98px) {
+  .carousel-item-fullheight {
+    height: 50vh;
+  }
+
   .page-header h1 {
     font-size: 1.5rem;
   }
@@ -2252,8 +2256,8 @@ body::-webkit-scrollbar,
   }
 
   .faculty-hexagon {
-    width: 85px;
-    height: 90px;
+    width: 75px;
+    height: 80px;
   }
 
   .faculty-section-title {
@@ -2268,8 +2272,8 @@ body::-webkit-scrollbar,
 
 @media (max-width: 575px) {
   .faculty-hexagon {
-    width: 75px;
-    height: 80px;
+    width: 65px;
+    height: 70px;
   }
 
   .faculty-hexagon-container {
