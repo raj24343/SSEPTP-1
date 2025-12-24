@@ -1157,7 +1157,7 @@ body::-webkit-scrollbar,
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   /* transform: scale(1.1); */
   transition: transform 6s linear;
@@ -1977,7 +1977,7 @@ body::-webkit-scrollbar,
   }
 
   .carousel-item-fullheight {
-    height: 60vh;
+    height: 75vh;
   }
 
   .slide-title {
@@ -2079,7 +2079,12 @@ body::-webkit-scrollbar,
 
 @media (max-width: 575.98px) {
   .carousel-item-fullheight {
-    height: 50vh;
+    height: 75vh;
+  }
+
+  .baba-icon-wrapper,
+  .badges-wrapper-absolute {
+    display: none !important;
   }
 
   .page-header h1 {

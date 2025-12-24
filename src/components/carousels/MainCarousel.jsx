@@ -176,7 +176,7 @@ const MainCarousel = ({ slides = [] }) => {
               className="slide-background"
               style={{
                 backgroundImage: `url(${slide.image})`,
-                backgroundSize: "100% 100%",
+                backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundColor: "#111", // Prevent white flash
               }}
@@ -194,7 +194,7 @@ const MainCarousel = ({ slides = [] }) => {
 
             <div className="slide-overlay"></div>
 
-            {slide.id === 3 && (
+            {isDesktop && slide.id === 3 && (
               <>
                 <div className="baba-icon-wrapper reveal-down">
                   <img src={Baba} alt="Baba" className="baba-icon" />
