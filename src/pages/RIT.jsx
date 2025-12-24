@@ -42,8 +42,9 @@ import thomas2 from "../assets/risefaculty/thomas.png"
 
 
 import Contact from "../components/common/Contact";
-import paul from "../assets/ssefaculty/cse/paul.jpg";
 import karin from "../assets/risefaculty/karin.jpg"
+import paul from "../assets/ssefaculty/cse/paul.jpg";
+import alexander from "../assets/ssefaculty/cse/alexander.png";
 import raimund from "../assets/ssefaculty/cse/raimund.jpg";
 import ennostubler from "../assets/ssefaculty/cse/ennostubler.jpg";
 import konradzalar from "../assets/ssefaculty/cse/Konradjalar.jpg";
@@ -81,7 +82,7 @@ function RIT() {
       role: "Graz University of Technology",
       linkedin: "https://www.linkedin.com/in/alexander-grass/",
       image:
-        "https://www.sseptp.org/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-07-at-9.00.38-AM.jpeg",
+        alexander,
     },
     {
       name: "Mr. Enno Stubler",
@@ -201,7 +202,7 @@ function RIT() {
       experience: "5 years",
       image: johannesR,
     },
-    
+
     {
       id: 12,
       name: "Dipl.-Ing. Christoph Wimmer",
@@ -310,7 +311,7 @@ function RIT() {
       experience: "20 years",
       image: riseLogo,
     },
-    
+
     {
       id: 25,
       name: "Dipl.-Ing. Dr. Christian Schanes",
@@ -347,7 +348,7 @@ function RIT() {
       experience: "20 years",
       image: richard,
     },
-   
+
     {
       id: 30,
       name: "Dipl.-Ing. Thomas Artner",
@@ -515,7 +516,7 @@ function RIT() {
                           className="rounded-circle object-fit-cover"
                           style={{ width: "120px", height: "120px" }}
                         />
-                       
+
                       </div>
                       <h3 className="h5 mb-1">{faculty.name}</h3>
                       <p className="text-muted mb-3">{faculty.role}</p>
@@ -593,7 +594,7 @@ function RIT() {
                             <small className="text-muted d-block">Experience</small>
                             <small className="fw-medium">{faculty.experience}</small>
                           </div> */}
-                         
+
                           {/* <div className="text-center">
                             <Button
                               variant="outline-primary"
