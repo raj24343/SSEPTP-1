@@ -181,7 +181,6 @@ const Navbar = ({ scrollPosition }) => {
 
           {/* Logo - always visible */}
           
-          <p>autonomus</p>
           {/* Mobile Toggle Button - only visible on mobile */}
           <button 
             ref={toggleRef}
