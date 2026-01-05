@@ -154,15 +154,34 @@ const Navbar = ({ scrollPosition }) => {
     <>
       <nav className="navbar navbar-dark" style={navbarStyle}>
         <div className="container">
+       <div style={{ position: "relative", display: "inline-block" }}>
+  <Link to="/" className="navbar-brand">
+    <img 
+      src={Logo} 
+      alt="SSE Logo" 
+      style={logoStyle}
+    />
+  </Link>
+
+  <span
+    style={{
+      position: "absolute",
+      bottom: isScrolled ? "4px" : "4px",
+      left: isScrolled ? "103px" : "128px",
+      color: "white",
+      fontSize: isScrolled ? "6px" : "7px",
+      fontWeight: "500"
+    }}
+  >
+    (Autonomous)
+  </span>
+</div>
+
+
+
           {/* Logo - always visible */}
-          <Link to="/" className="navbar-brand">
-            <img 
-              src={Logo} 
-              alt="SSE Logo" 
-              style={logoStyle}
-            />
-          </Link>
           
+          <p>autonomus</p>
           {/* Mobile Toggle Button - only visible on mobile */}
           <button 
             ref={toggleRef}
