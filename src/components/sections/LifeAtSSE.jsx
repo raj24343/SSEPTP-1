@@ -96,7 +96,7 @@ const LifeAtSSE = () => {
       <Container>
         <SectionHeader
           subtitle="Student Experience"
-          title="Life at  School of Engineering"
+          title="Life at Sanskrithi School of Engineering"
           description="Discover a vibrant campus life that complements academic excellence with diverse extracurricular activities"
           centered={true}
         />
