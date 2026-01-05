@@ -773,9 +773,9 @@ const Committees = () => {
                       Emergency Contact Information
                     </h5>
                     <p className="mb-0">
-                      <strong>Campus Security:</strong> +91 8555 000 001 |
-                      <strong> Student Helpline:</strong> +91 8555 000 002 |
-                      <strong> Medical Emergency:</strong> +91 8555 000 003
+                      <strong>Campus Security:</strong> +91 91000 64545 |
+                      <strong> Student Helpline:</strong> +91 91009 74543 |
+                      <strong> Medical Emergency:</strong> +91 91000 74545
                     </p>
                   </div>
                 </div>
