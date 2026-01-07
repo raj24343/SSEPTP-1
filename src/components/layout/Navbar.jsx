@@ -140,7 +140,7 @@ const Navbar = ({ scrollPosition }) => {
     top: 0,
     left: 0,
     right: 0,
-    zIndex: 1030,
+    zIndex: 99,
     padding: isScrolled ? '10px 0' : '15px 0',
   };
 
