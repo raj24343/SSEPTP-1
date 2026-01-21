@@ -16,6 +16,139 @@ import viceprincipaldirectoradmissions from "../assets/viceprincipal&directoradm
 /**
  * Leadership Component for About page
  */
+
+const academicCouncilMembers = [
+  {
+    name: "Prof. Thomas Grechenig",
+    designation:
+      "Chairman Academics, SSE & Founder, INSO and RISE, Austria",
+    position: "President, Governing Body Nominee",
+  },
+  {
+    name: "Dr. techn. Karin Kappel",
+    designation: "CEO, RISE Group of Enterprises, Austria",
+    position: "Governing Body Nominee",
+  },
+  {
+    name: "Dr. techn. Karin Spevak",
+    designation: "Head of INSO, Austria",
+    position: "Governing Body Nominee",
+  },
+  {
+    name: "Dr. techn. Franz Schönbauer",
+    designation:
+      "CTO, RISE | Global Senior Architect – Digital Technology, Austria",
+    position: "Governing Body Nominee",
+  },
+  {
+    name: "Dr. Andreas Staribacher",
+    designation:
+      "Founder & CEO – Global Auditing Company, Europe",
+    position: "Governing Body Nominee",
+  },
+  {
+    name: "Dr. S. Hemachandra",
+    designation: "Principal, SSE",
+    position: "Chairman",
+  },
+  {
+    name: "Dr. P. Sujatha",
+    designation:
+      "Professor of EEE & Director (Foreign Affairs & Alumni), JNTUA",
+    position: "University Nominee",
+  },
+  {
+    name: "Dr. Vaishali G. Ghorpade",
+    designation:
+      "Professor of Civil Engg & Director R&D, JNTUA",
+    position: "University Nominee",
+  },
+  {
+    name: "Dr. A. P. Siva Kumar",
+    designation:
+      "Professor of CSE & Controller of Examinations, JNTUA",
+    position: "University Nominee",
+  },
+  {
+    name: "Dr. K. Vinod Kumar",
+    designation: "HoD, CSE, SSE",
+    position: "Member",
+  },
+  {
+    name: "Dr. V. Annapurna",
+    designation: "HoD, ECE, SSE",
+    position: "Member",
+  },
+  {
+    name: "Dr. K. Leleedhar Rao",
+    designation: "HoD, EEE, SSE",
+    position: "Member",
+  },
+  {
+    name: "Dr. A. Prasad Reddy",
+    designation: "HoD, MECH, SSE",
+    position: "Member",
+  },
+  {
+    name: "Mr. K. Siva Prasad",
+    designation: "HoD, CIVIL, SSE",
+    position: "Member",
+  },
+  {
+    name: "Dr. B. Sambasivaiah",
+    designation: "HoD, H&S, SSE",
+    position: "Member",
+  },
+  {
+    name: "Mr. S. Sadiq Vali",
+    designation: "Assistant Professor, ECE, SSE",
+    position: "Member",
+  },
+  {
+    name: "Dr. S. Harikrishnan",
+    designation:
+      "Vice Principal & Associate Professor, ECE, SSE",
+    position: "Member",
+  },
+  {
+    name: "Dr. Divya Goyal",
+    designation: "Professor, H&S, SSE",
+    position: "Member",
+  },
+  {
+    name: "Mr. S. Noormohammad",
+    designation: "Assistant Professor, CSE, SSE",
+    position: "Member",
+  },
+  {
+    name: "Dr. V. Sankaranarayanan",
+    designation:
+      "Dean – Research & Consultancy, NIT Trichy",
+    position: "Governing Body Nominee",
+  },
+  {
+    name: "Mr. Manjunath Nallapeta",
+    designation: "Director – Talent Acquisition, CGI",
+    position: "Governing Body Nominee",
+  },
+  {
+    name: "Mr. S. S. Sriram",
+    designation:
+      "Founder Director – Estate Craft & The Statement Home",
+    position: "Governing Body Nominee",
+  },
+  {
+    name: "Mr. N. Pavan Kumar",
+    designation: "Assistant Professor, EEE, SSE",
+    position: "Controller of Examinations",
+  },
+  {
+    name: "Mr. D. Nagaraju",
+    designation: "Associate Professor, ECE, SSE",
+    position: "Member Secretary",
+  },
+];
+
 const Leadership = () => {
   return (
     <div className="leadership-page bg-light">
@@ -199,6 +332,49 @@ const Leadership = () => {
           </Row>
         </Container>
       </section>
+       {/* acadamic concil */}
+
+
+    {/* Academic Council Section */}
+<section className="py-5 bg-white">
+  <Container className="py-4">
+    <SectionHeader
+      subtitle="Academic Council"
+      title="Academic Council Members"
+      description="Esteemed academicians and industry leaders guiding SSE"
+      centered={true}
+    />
+
+    <Row className="g-4">
+      {academicCouncilMembers.map((member) => (
+        <Col lg={4} md={6} key={member.id}>
+          <Card className="border-0 shadow-sm h-100 hover-translate-y">
+            <Card.Body className="p-4">
+              
+              {/* Name */}
+              <h5 className="fw-bold mb-2">{member.name}</h5>
+
+              {/* Designation */}
+              <p className="text-muted mb-3 small">
+                {member.designation}
+              </p>
+
+              {/* Position */}
+              <span className="badge bg-warning text-dark px-3 py-2">
+                {member.position}
+              </span>
+            </Card.Body>
+          </Card>
+        </Col>
+      ))}
+    </Row>
+  </Container>
+</section>
+
+
+
+
+
 
       {/* Leadership Team Section */}
       <section className="py-5 bg-light">

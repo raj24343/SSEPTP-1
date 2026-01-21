@@ -39,6 +39,7 @@ import schanes from "../assets/risefaculty/schanes.jpg"
 import aigner from "../assets/risefaculty/aigner.jpg"
 import paulR from "../assets/risefaculty/paul.jpg"
 import thomas2 from "../assets/risefaculty/thomas.png"
+import mon from "../assets/risefaculty/mon.jpg"
 
 
 import Contact from "../components/common/Contact";
@@ -337,7 +338,7 @@ function RIT() {
       department: "Research & Innovation",
       specialization: "Technology Transfer, Patent Filing",
       experience: "20 years",
-      image: riseLogo,
+      image: mon,
     },
     {
       id: 28,
@@ -358,6 +359,7 @@ function RIT() {
       experience: "20 years",
       image: thomas,
     },
+    
   ];
 
 
