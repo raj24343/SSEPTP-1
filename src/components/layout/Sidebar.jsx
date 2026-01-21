@@ -284,11 +284,14 @@ const Sidebar = () => {
       directLink: true,
     },
     {
-      name: "RIT",
+      name: "RISE@SSE",
       color: "#6C757D", // Grey
-      icon: "fas fa-chevron-right",
-      link: "/rit",
-      directLink: true,
+      icon: "fas fa-plus",
+      submenu: [
+        { title: "RIT", link: "/rit" },
+        { title: "Distinguished Faculty Members", link: "/dfm" },
+        
+      ],
     },
     
   ];
