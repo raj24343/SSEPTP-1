@@ -59,7 +59,7 @@ function RIT() {
     { id: 20, name: "Dipl.-Ing. Dr. Andreas Ehringfeld", image: riseLogo },
     { id: 21, name: "Dipl.-Ing. Stefan Kuschnigg", image: riseLogo },
     { id: 22, name: "Dr. Franz Schönbauer", image: riseLogo },
-    { id: 23, name: "Dipl.-Ing. Mag. Dr. Christian Brem", image: riseLogo },
+    { id: 23, name: "Dipl.-Ing. Mag. Dr. Christian Brem",  image: riseLogo },
     { id: 25, name: "Dipl.-Ing. Dr. Christian Schanes", image: schanes },
     { id: 26, name: "Dipl.-Ing. Dr. Christoph Aigner", image: aigner },
     { id: 27, name: "Dipl.-Ing. Monika Suppersberger", image: mon },
