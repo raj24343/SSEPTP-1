@@ -1,34 +1,34 @@
-import React, { useEffect, useMemo } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import React, { useEffect, useState, useMemo } from "react";
+import { Container, Row, Col, Card, Badge, Tab, Nav } from "react-bootstrap";
 import Navbar from "../components/layout/Navbar";
 import Sidebar from "../components/layout/Sidebar";
 import Footer from "../components/layout/Footer";
 import SectionHeader from "../components/common/SectionHeader";
+import richard from "../assets/risefaculty/richard.jpg"
+import mario from "../assets/risefaculty/mario.jpg"
+import dominik from "../assets/risefaculty/dominik.jpg"
+import raoul from "../assets/risefaculty/raoul.jpg"
+import stefan from "../assets/risefaculty/stefan.jpg"
+import karl from "../assets/risefaculty/karl.jpg"
+import schemlz from "../assets/risefaculty/schmelz.jpg"
+import philip from "../assets/risefaculty/philip.jpg"
+import johannesR from "../assets/risefaculty/johannes.gif"
+import christoph from "../assets/risefaculty/christoph.jpg"
+import rene from "../assets/risefaculty/rene.jpg"
+import roland from "../assets/risefaculty/roland.jpg"
+import riseLogo from "../assets/risefaculty/rise_logo.jpg"
+import andreas from "../assets/risefaculty/andreas.jpg"
+import christina from "../assets/risefaculty/christina.jpg"
+import markus from "../assets/risefaculty/markus.jpg"
+import thomas from "../assets/risefaculty/thomas.jpg"
+import bachel from "../assets/risefaculty/bachel.jpg"
+import schanes from "../assets/risefaculty/schanes.jpg"
+import aigner from "../assets/risefaculty/aigner.jpg"
+import thomas2 from "../assets/risefaculty/thomas.png"
+import mon from "../assets/risefaculty/mon.jpg"
 
-// Import Rise@SSE Faculty Images
-import karin from "../assets/risefaculty/karin.jpg";
-import mario from "../assets/risefaculty/mario.jpg";
-import andreas from "../assets/risefaculty/andreas.jpg";
-import stefan from "../assets/risefaculty/stefan.jpg";
-import karl from "../assets/risefaculty/karl.jpg";
-import schemlz from "../assets/risefaculty/schmelz.jpg";
-import philip from "../assets/risefaculty/philip.jpg";
-import dominik from "../assets/risefaculty/dominik.jpg";
-import raoul from "../assets/risefaculty/raoul.jpg";
-import johannesR from "../assets/risefaculty/johannes.gif";
-import christoph from "../assets/risefaculty/christoph.jpg";
-import rene from "../assets/risefaculty/rene.jpg";
-import roland from "../assets/risefaculty/roland.jpg";
-import riseLogo from "../assets/risefaculty/rise_logo.jpg";
-import christina from "../assets/risefaculty/christina.jpg";
-import markus from "../assets/risefaculty/markus.jpg";
-import thomas2 from "../assets/risefaculty/thomas.png";
-import bachel from "../assets/risefaculty/bachel.jpg";
-import schanes from "../assets/risefaculty/schanes.jpg";
-import aigner from "../assets/risefaculty/aigner.jpg";
-import mon from "../assets/risefaculty/mon.jpg";
-import richard from "../assets/risefaculty/richard.jpg";
-import thomas from "../assets/risefaculty/thomas.jpg";
+
+import karin from "../assets/risefaculty/karin.jpg"
 
 function RIT() {
   // Scroll to top on mount
@@ -120,6 +120,10 @@ function RIT() {
           </Row>
         </Container>
       </section>
+
+
+
+
 
       <Footer />
     </div>
